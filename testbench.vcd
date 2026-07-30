@@ -1,0 +1,144 @@
+$date
+	Tue Jul 14 16:41:25 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 4 ! grant [3:0] $end
+$var reg 1 " clk $end
+$var reg 4 # done [3:0] $end
+$var reg 4 $ request [3:0] $end
+$var reg 1 % reset $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 4 & done [3:0] $end
+$var wire 4 ' higher_request [3:0] $end
+$var wire 4 ( lower_request [3:0] $end
+$var wire 4 ) request [3:0] $end
+$var wire 1 % reset $end
+$var wire 4 * upper_mask [3:0] $end
+$var wire 4 + next_grant [3:0] $end
+$var parameter 32 , N $end
+$var reg 2 - counter [1:0] $end
+$var reg 4 . grant [3:0] $end
+$var reg 4 / last_grant [3:0] $end
+$scope function granter $end
+$var reg 4 0 request [3:0] $end
+$var integer 32 1 i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 ,
+$end
+#0
+$dumpvars
+b11111111111111111111111111111111 1
+b0 0
+b1 /
+b0 .
+b0 -
+b0 +
+b1110 *
+b0 )
+b0 (
+b0 '
+bx &
+1%
+b0 $
+bx #
+0"
+b0 !
+$end
+#5
+1"
+#10
+0%
+0"
+#15
+1"
+#20
+b10 +
+b11111111111111111111111111111111 1
+b1010 0
+b1010 '
+b1 (
+b0 #
+b0 &
+b1011 $
+b1011 )
+0"
+#25
+b1000 +
+b11111111111111111111111111111111 1
+b11 0
+b11 (
+b1000 '
+b1100 *
+b10 /
+b10 !
+b10 .
+1"
+#30
+0"
+#35
+b1 -
+1"
+#40
+0"
+#45
+b10 -
+1"
+#50
+b10 #
+b10 &
+0"
+#55
+b1 +
+b11111111111111111111111111111111 1
+b1011 0
+b1011 (
+b0 '
+b0 *
+b0 -
+b1000 /
+b1000 !
+b1000 .
+1"
+#60
+0"
+#65
+b1 -
+1"
+#70
+0"
+#75
+b10 -
+1"
+#80
+0"
+#85
+b11 -
+1"
+#90
+0"
+#95
+b10 +
+b11111111111111111111111111111111 1
+b1 0
+b1 (
+b1010 '
+b1110 *
+b0 -
+b1 /
+b1 !
+b1 .
+1"
+#100
+0"
